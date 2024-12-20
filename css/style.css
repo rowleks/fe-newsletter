@@ -1,0 +1,18 @@
+:root {
+    --tomato: hsl(4, 100%, 67%);
+    --ds-grey: hsl(234, 29%, 20%);
+    --char-grey: hsl(235, 18%, 26%);
+    --grey: hsl(231, 7%, 60%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-size: 1rem;
+}
