@@ -95,14 +95,12 @@ body.s-body {
 }
 
 
-
 main.s-main {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1.8rem;
     height: 100vh;
     margin-top: 8rem;
-
 }
 
 .s-btn {
@@ -110,5 +108,6 @@ main.s-main {
 }
 
 h1.s-h1 {
-    font-size: 7cqh;
+    font-size: 5ch;
+    line-height: 1;
 }
