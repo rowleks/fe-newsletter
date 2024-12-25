@@ -75,11 +75,40 @@ input {
     margin-bottom: 1rem;
 }
 
-button {
+button.btn {
     padding: 1rem;
     border-radius: 10px;
     border: none;
     background-color: var(--ds-grey);
     color: var(--white);
     font-weight: 700;
+    cursor: pointer;
+}
+
+/* Success page */
+
+body.s-body {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+
+main.s-main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 100vh;
+    margin-top: 8rem;
+
+}
+
+.s-btn {
+    margin-top: auto;
+}
+
+h1.s-h1 {
+    font-size: 7cqh;
 }
