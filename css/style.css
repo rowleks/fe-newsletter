@@ -32,6 +32,11 @@ img {
     max-width: 100%;
 }
 
+a, a:hover, a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
 div.updates {
     display: flex;
     flex-direction: column;
@@ -83,6 +88,7 @@ button.btn {
     color: var(--white);
     font-weight: 700;
     cursor: pointer;
+    width: 100%;
 }
 
 .btn:hover, .btn:active {
@@ -125,6 +131,11 @@ h1.s-h1 {
         padding: 5rem 5rem;
     }
 
+    body.s-body {
+        padding: 10rem;
+
+    }
+
     main.i-main {
         flex-direction: row-reverse;
         justify-content: flex-end;
@@ -135,6 +146,16 @@ h1.s-h1 {
         gap: 2rem;
         padding: 2rem;
         border-radius: 15px;
+    }
+
+    main.s-main {
+        background-color: var(--white);
+        width: 500px;
+        margin-inline: auto;
+        padding: 2rem;
+        border-radius: 10px;
+        height: 500px;
+        margin-top: 0;
     }
 
     h1.i-h1 {
