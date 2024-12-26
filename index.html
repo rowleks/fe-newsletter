@@ -26,9 +26,13 @@
                 </ul>
             </div>
     
-            <form action="" novalidate autocomplete="off">
-                <label for="mail">Email address</label>
-                <input type="text" name="mail" id="" placeholder="email@company.com" autocomplete="off">
+            <form id="form" action="" novalidate autocomplete="off">
+                <div class="email-label">
+                    <label for="email">Email address</label>
+                    <label id="error-label" class="invalid" for="email">Valid email required</label>
+
+                </div>
+                <input type="text" name="email" id="error-input" placeholder="email@company.com" autocomplete="off" class="">
                 <button class="btn">Subscribe to monthly newsletter</button>
             </form>
 
@@ -36,6 +40,8 @@
 
 
     </main>
+
+    <script src="./js/script.js"></script>
     
 </body>
 </html>
