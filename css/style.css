@@ -29,8 +29,12 @@ h1 {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
     object-fit: cover;
+}
+
+img.hero-img {
+    width: 100%;
 }
 
 a, a:hover, a:focus {
