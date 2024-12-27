@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/newsletter-sign-up-HdRspxXLgc)
+- Live Site URL: [Click here](https://fe-newsletter.netlify.app/)
 
 ## My process
 
@@ -52,7 +52,8 @@ Users should be able to:
 ### What I learned
 
 I learnt how to implement form validation using vanilla JavaScript. 
-I also learnt how to use session storage to transfer data from one html page to another and that is what I used to make the email address displayed on the success page dynamic.                                     
+
+I also learnt how to use session storage to transfer data from one html page to another which is what I used to dynamically display email address on the success page                                    
 
 ```js
     if (email.includes('@') && email.endsWith('.com'))
@@ -69,7 +70,8 @@ I also learnt how to use session storage to transfer data from one html page to 
         }
 ```
 
-I learn how to use images to replace bullet points of an li element
+I learnt how to use images to replace bullet points of an li element
+
 ```css
 ul {
     list-style-type: none;
@@ -90,7 +92,7 @@ li {
 
 ### Continued development
 
-I keep practicing to develop my JavaScript and also learn how to implement form validation with JavaScript Libraries
+I will keep practicing to develop my JavaScript and also learn how to implement form validation with JavaScript libraries
 
 
 ### Useful resources

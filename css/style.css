@@ -151,6 +151,9 @@ h1.s-h1 {
 @media (min-width: 900px) {
 
     body {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
         background-color: var(--ds-grey);
         padding: 5rem 5rem;
     }
@@ -186,4 +189,15 @@ h1.s-h1 {
         font-size: 5ch;
     }
 
+}
+
+.attribution { 
+    font-size: 14px; 
+    text-align: center;
+    padding: 1rem 0;
+    background-color: var(--white);
+ }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
