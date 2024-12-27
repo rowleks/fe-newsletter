@@ -12,7 +12,10 @@
 </head>
 <body class="i-body">
     <main class="i-main">
-        <img srcset="./assets/illustration-sign-up-mobile.svg 375w, ./assets/illustration-sign-up-desktop.svg 900w" sizes="(min-width: 900px) 900px, 375px" src="./assets/illustration-sign-up-desktop.svg" alt="">
+        <picture>
+            <source srcset="./assets/illustration-sign-up-desktop.svg" media="(min-width:48rem)">
+               <img src="./assets/illustration-sign-up-mobile.svg" alt="mobile banner" />
+          </picture>
 
         <section class="s-2">
             <div class="updates">
